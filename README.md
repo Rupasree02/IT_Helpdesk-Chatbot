@@ -137,6 +137,16 @@ Specify the name of the agent and other properties such as language and time zon
 
 
 Import IT_Helpdesk.zip file attached following the steps:
+Click on Export and Import from the list of settings
+Select Import from zip
 
 ![image](https://user-images.githubusercontent.com/56398068/67155795-32a3fb80-f333-11e9-8828-d59a2f071e07.png)
+
+
+###  Using the Inline Editor to Create a Fulfillment that Integrates with BigQuery
+
+Click on Fulfillment in the left panel and switch the Inline Editor toggle to "Enabled" and select "Deploy".
+
+Copy then code form `index.json` and paste it in the index.js tab, replacing the existing content. In the following code, you must update the variable BIGQUERY_CLIENT to reference your project id. Replace your-project-id with the project id of your project.
+
 
