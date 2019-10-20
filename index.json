@@ -1,7 +1,7 @@
 "use strict";
 
 const functions = require("firebase-functions");
-const { WebhookClient } = require("dialogflow-fulfillment");
+const {WebhookClient} = require("dialogflow-fulfillment");
 const { Card } = require("dialogflow-fulfillment");
 const BIGQUERY = require("@google-cloud/bigquery");
 
