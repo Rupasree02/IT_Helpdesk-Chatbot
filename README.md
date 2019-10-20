@@ -174,5 +174,16 @@ At this point, the Dialogflow should be set up. Test it in the Try it now panel 
 
 ![image](https://user-images.githubusercontent.com/56398068/67155851-4f8cfe80-f334-11e9-8031-d1ddcf2d7bc9.png)
 
+### Test Using a One-Click Integration
 
+Dialogflow provides many types of integrations for your chatbot. Let's take a look at a sample web user interface for the chatbot.
 
+Click on Integrations in the Dialogflow left panel.
+
+Enable the Web Demo integration by flipping the switch.
+
+![image](https://user-images.githubusercontent.com/56398068/67155872-94189a00-f334-11e9-907a-897ee2c595b9.png)
+
+Click on the URL link to launch Web Demo:
+
+Start using the chat interface by typing in the Ask something... section! If you are using a Chrome browser, if you click the microphone icon and you can speak your questions to the chatbot.
