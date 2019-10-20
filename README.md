@@ -149,4 +149,30 @@ Click on Fulfillment in the left panel and switch the Inline Editor toggle to "E
 
 Copy then code form `index.json` and paste it in the index.js tab, replacing the existing content. In the following code, replace your-project-id with the project id of your project.
 
+### Enable Webhook for Fulfillment
+
+Next, go back to Intents in the left panel. Click the down arrow next to Submit Ticket to reveal its follow-up intents.
+
+Click on the last follow-up intent Submit Ticket - Issue Category to open it for editing.
+
+![image](https://user-images.githubusercontent.com/56398068/67155837-f755fc80-f333-11e9-8d7d-afb6d676406a.png)
+
+Then click on the Fulfillment header at the very bottom to toggle the section. Verify that Enable webhook call for this intent is turned on.
+
+![image](https://user-images.githubusercontent.com/56398068/67155839-0fc61700-f334-11e9-8ca4-a406b77e1f94.png)
+
+When you're finished, click Save.
+
+### Final Testing of Chatbot!
+
+At this point, the Dialogflow should be set up. Test it in the Try it now panel on the right by entering the following conversation:
+
+1. Hi
+2. I would like to submit a ticket
+3. My email is student@qwiklabs.net
+4. I can't login
+
+![image](https://user-images.githubusercontent.com/56398068/67155851-4f8cfe80-f334-11e9-8031-d1ddcf2d7bc9.png)
+
+
 
