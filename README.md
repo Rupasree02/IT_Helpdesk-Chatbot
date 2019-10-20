@@ -147,6 +147,6 @@ Select Import from zip
 
 Click on Fulfillment in the left panel and switch the Inline Editor toggle to "Enabled" and select "Deploy".
 
-Copy then code form `index.json` and paste it in the index.js tab, replacing the existing content. In the following code, you must update the variable BIGQUERY_CLIENT to reference your project id. Replace your-project-id with the project id of your project.
+Copy then code form `index.json` and paste it in the index.js tab, replacing the existing content. In the following code, replace your-project-id with the project id of your project.
 
 
