@@ -8,3 +8,4 @@ Wouldn't it be awesome to have an accurate estimate of how long it will take for
 3. Use an inline code editor within Dialogflow for deploying a Node.js fulfillment script that integrates BigQuery
 4. Testing chatbot
 
+![image](https://user-images.githubusercontent.com/56398068/67155454-93c8d080-f32d-11e9-8f2a-100d842074c8.png)
