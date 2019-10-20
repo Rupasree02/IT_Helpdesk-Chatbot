@@ -18,4 +18,5 @@ Go to the Google Cloud Platform Console and verify your project is selected at t
 
 Select BigQuery from the navigation menu in Google Cloud Console.
 
-![image](https://user-images.githubusercontent.com/56398068/67155601-1d799d80-f330-11e9-88ff-59e367a3abd9.png)
+![image](https://user-images.githubusercontent.com/56398068/67155613-44d06a80-f330-11e9-93d2-543091bd8325.png)
+
