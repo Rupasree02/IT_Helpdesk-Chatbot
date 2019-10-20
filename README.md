@@ -132,3 +132,10 @@ Select Create Agent after logging in and accepting the terms and conditions.
 
 Specify the name of the agent and other properties such as language and time zone. Don't create a new project - make sure to continue using the same project that contains your BigQuery ML model. 
 
+
+### Import Intents & Entities for a IT_Helpdesk Agent
+
+
+Import IT_Helpdesk.zip file attached following the steps:
+
+![image](https://user-images.githubusercontent.com/56398068/67155785-08ead480-f333-11e9-8dec-2a7ab1a7342e.png)
