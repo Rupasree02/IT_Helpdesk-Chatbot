@@ -123,3 +123,12 @@ FROM
     TABLE pred_table)
 ```
 
+### Create a Dialogflow Agent
+
+Navigate to console.dialogflow.com and log in. Make sure to use the correct account when logging in, and then accept the terms. 
+Select Create Agent after logging in and accepting the terms and conditions.
+
+![image](https://user-images.githubusercontent.com/56398068/67155761-9974e500-f332-11e9-9e5b-cd9720b76c53.png)
+
+Specify the name of the agent and other properties such as language and time zone. Don't create a new project - make sure to continue using the same project that contains your BigQuery ML model. 
+
