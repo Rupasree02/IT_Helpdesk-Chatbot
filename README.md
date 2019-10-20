@@ -138,4 +138,5 @@ Specify the name of the agent and other properties such as language and time zon
 
 Import IT_Helpdesk.zip file attached following the steps:
 
-![image](https://user-images.githubusercontent.com/56398068/67155785-08ead480-f333-11e9-8dec-2a7ab1a7342e.png)
+![image](https://user-images.githubusercontent.com/56398068/67155795-32a3fb80-f333-11e9-8828-d59a2f071e07.png)
+
