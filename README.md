@@ -9,3 +9,12 @@ Wouldn't it be awesome to have an accurate estimate of how long it will take for
 4. Testing chatbot
 
 ![Capture](https://user-images.githubusercontent.com/56398068/67155491-59abfe80-f32e-11e9-880e-ecbafb7503c0.JPG)
+
+
+### Training a Model Using BigQuery Machine Learning
+
+Upload Helpdesk Data to BigQuery
+Go to the Google Cloud Platform Console and verify your project is selected at the top.
+
+Select BigQuery from the navigation menu in Google Cloud Console.
+
