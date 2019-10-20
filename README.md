@@ -169,10 +169,11 @@ At this point, the Dialogflow should be set up. Test it in the Try it now panel 
 
 1. Hi
 2. I would like to submit a ticket
-3. My email is student@qwiklabs.net
+3. My email is rupa@gmail.com
 4. I can't login
 
-![image](https://user-images.githubusercontent.com/56398068/67155851-4f8cfe80-f334-11e9-8031-d1ddcf2d7bc9.png)
+![image](https://user-images.githubusercontent.com/56398068/67155985-73e9da80-f336-11e9-893e-514b671d659a.png)
+
 
 ### Test Using a One-Click Integration
 
