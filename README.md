@@ -13,32 +13,34 @@ Wouldn't it be awesome to have an accurate estimate of how long it will take for
 
 ### Training a Model Using BigQuery Machine Learning
 
-Upload Helpdesk Data to BigQuery
-Go to the Google Cloud Platform Console and verify your project is selected at the top.
+Upload Helpdesk Data to BigQuery.
+
+Go to the Google Cloud Platform Console and verify the project is selected at the top.
 
 Select BigQuery from the navigation menu in Google Cloud Console.
 
 ![image](https://user-images.githubusercontent.com/56398068/67155613-44d06a80-f330-11e9-93d2-543091bd8325.png)
 
-Select your Project ID on the left sidebar, then create a new dataset called helpdesk. Leave Default selected as the location and click Create dataset.
+Select the Project ID on the left sidebar, then create a new dataset called helpdesk. Leave Default selected as the location and click Create dataset.
 
-In the sidebar, select the new helpdesk dataset you just created, and select Create Table.
+In the sidebar, select the new helpdesk dataset just created, and select Create Table.
 
 Use the following parameters to create a new table. Leave the defaults for all other fields.
 
-Create table from: Google Cloud Storage
+-> Create table from: Google Cloud Storage
 
-Select file from GCS bucket: gs://solutions-public-assets/smartenup-helpdesk/ml/issues.csv
+-> Select file from GCS bucket: gs://solutions-public-assets/smartenup-helpdesk/ml/issues.csv
 
-File format: CSV
+-> File format: CSV
 
-Destination table issues
+-> Destination table issues
 
-Auto detect: Check box for Schema and input parameters
+-> Auto detect: Check box for Schema and input parameters
 
-Advanced > Header rows to skip: 1
+-> Advanced > Header rows to skip: 1
 
-Click Create Table. This will trigger a job that loads the source data into a new BigQuery table. It will take about 30 seconds for the job to complete, and you can view it by selecting Job History from the sidebar on the left.
+Click Create Table. This will trigger a job that loads the source data into a new BigQuery table. It will take about 30 seconds for the job to complete, and we can view it by selecting Job History from the sidebar on the left.
+
 
 In Query editor, execute the following query and examine the data.
 
@@ -121,5 +123,3 @@ FROM
     TABLE pred_table)
 ```
 
-
-When seniority is 5, experience is 3-Advanced, category is Billing, and type is Request, our model is saying that the average response time is 3.74 days.
