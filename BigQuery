@@ -18,5 +18,4 @@ SELECT
   *
 FROM
   ML.EVALUATE(MODEL `helpdesk.predict_eta_v0`)
-  
-  ![Alt Text](https://codelabs.developers.google.com/codelabs/cloud-dialogflow-bqml/img/6542e699b12047b9.png)
+
