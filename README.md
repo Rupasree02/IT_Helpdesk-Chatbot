@@ -7,3 +7,10 @@ Wouldn't it be awesome to have an accurate estimate of how long it will take for
 2. Deploy a simple Dialogflow application
 3. Use an inline code editor within Dialogflow for deploying a Node.js fulfillment script that integrates BigQuery
 4. Testing chatbot
+
+### Training a Model Using BigQuery Machine Learning
+
+Upload Helpdesk Data to BigQuery
+Go to the Google Cloud Platform Console and verify your project is selected at the top.
+Select BigQuery from the navigation menu in Google Cloud Console.
+
